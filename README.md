@@ -1,5 +1,5 @@
 # sentry-runner
-[![PyPI version](https://badge.fury.io/py/sentry-runner.svg)](http://badge.fury.io/py/sentry-runer)
+[![PyPI version](https://badge.fury.io/py/sentry-runner.svg)](http://badge.fury.io/py/sentry-runner)
 
 Run arbitrary script within Sentry environment (just like `rails runner`).
 
