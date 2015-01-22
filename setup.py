@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-runner',
-    version='0.1.0',
+    version='0.1.1',
     description='Run arbitrary script within Django environment',
     author='Kohei Suzuki',
     author_email='eagletmt@gmail.com',
