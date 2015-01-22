@@ -1,14 +1,14 @@
-# sentry-runner
-[![PyPI version](https://badge.fury.io/py/sentry-runner.svg)](http://badge.fury.io/py/sentry-runner)
+# django-runner
+[![PyPI version](https://badge.fury.io/py/django-runner.svg)](http://badge.fury.io/py/django-runner)
 
-Run arbitrary script within Sentry environment (just like `rails runner`).
+Run arbitrary script within Django environment (just like `rails runner`).
 
 ## Installation
 ```sh
-pip install sentry-runner
+pip install django-runner
 ```
 
 ## Usage
 ```sh
-sentry --config=/etc/sentry.conf.py runner --file awesome-script.py
+python manage.py runner --file awesome-script.py
 ```

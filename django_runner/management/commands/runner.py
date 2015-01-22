@@ -4,7 +4,7 @@ from optparse import make_option
 from django.core.management.base import BaseCommand, CommandError
 
 class Command(BaseCommand):
-    help = 'Run arbitrary script within Sentry environment'
+    help = 'Run arbitrary script within Django environment'
 
     option_list = BaseCommand.option_list + (
         make_option('--file', dest='file', help='Path to Python script'),
